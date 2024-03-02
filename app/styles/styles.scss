@@ -4,14 +4,12 @@
 }
 
 $font-family: Poppins, sans-serif;
-
 $primary-color: #191BA9;
 $secondary-color: #A1A2FE;
 $terciary-color: #5CC2F2;
 
-$shadow-color: #F3EAEA;
-
 $background-color: #F7F3F3;
+$shadow-color: #F3EAEA;
 
 $default-text-color: #05011E;
 $subtext-text-color: #313131;
@@ -24,7 +22,7 @@ $auxiliary-text-color: #ffffff;
 
     font-family: $font-family;
     background-color: $background-color;
-    color: $text-color;
+    color: $default-text-color;
 
     padding: 0;
     margin: 0;
