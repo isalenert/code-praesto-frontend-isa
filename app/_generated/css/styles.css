@@ -133,6 +133,7 @@ header ul li:hover {
 .event-title .title-wrapper .see-more a:hover {
   background-color: #F3EAEA;
   border-radius: 20px;
+  transition: all 0.2s ease-in-out;
 }
 
 .events {
@@ -174,8 +175,19 @@ header ul li:hover {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+  text-overflow: ellipsis;
 }
-.events .card .card-body p:first-of-type span a {
+.events .card .card-body p:first-of-type {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.events .card .card-body a {
   color: #191BA9;
   text-decoration: none;
+}
+.events .card:hover {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 3px 0px, rgba(60, 64, 67, 0.15) 0px 4px 8px 3px;
+  transition: all 0.2s ease-in-out;
 }

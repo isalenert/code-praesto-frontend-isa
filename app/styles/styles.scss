@@ -7,6 +7,7 @@ $terciary-color: #5CC2F2;
 
 $background-color: #F7F3F3;
 $shadow-color: #F3EAEA;
+$box-shadown: rgba(60, 64, 67, 0.3) 0px 1px 3px 0px, rgba(60, 64, 67, 0.15) 0px 4px 8px 3px;
 
 $default-text-color: #202124;
 $subtext-text-color: #5f6368;
@@ -189,6 +190,7 @@ header {
             a:hover {
                 background-color: $shadow-color;
                 border-radius: 20px;
+                transition: all 0.2s ease-in-out;
             }
 
         }
@@ -203,11 +205,9 @@ header {
     justify-content: space-between;
 
     .card {
-
         border: 1px solid #bdb7b7;
         border-radius: 6px;
         padding: 2rem;
-
         width: 32%;
 
         .card-header {
@@ -218,7 +218,6 @@ header {
             .image-container {
                 width: 3rem;
                 height: 3rem;
-
                 border: 4px solid $primary-color;
                 border-radius: 50%;
             }
@@ -226,7 +225,6 @@ header {
             img {
                 border: 3px solid lightgrey;
                 border-radius: 50%;
-
                 object-fit: contain;
                 width: 100%;
                 height: 100%;
@@ -234,26 +232,36 @@ header {
 
             p {
                 color: $default-text-color;
-                font-weight: 600
+                font-weight: 600;
             }
         }
 
         .card-body {
             margin-top: 1rem;
-
             display: flex;
             flex-direction: column;
-
             gap: 0.5rem;
+            text-overflow: ellipsis;
 
             p:first-of-type {
-                span {
-                    a {
-                        color: $primary-color;
-                        text-decoration: none;
-                    }
-                }
+                display: -webkit-box;
+                -webkit-line-clamp: 3;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
             }
+
+            a {
+                color: $primary-color;
+                text-decoration: none;
+            }
+        }
+    }
+
+    .card {
+
+        &:hover {
+            box-shadow: $box-shadown;
+            transition: all 0.2s ease-in-out;
         }
     }
 
