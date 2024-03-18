@@ -24,6 +24,6 @@ Projeto Figma: [Figma](https://www.figma.com/file/Rbk6xPyhFF020FEUxzENHW/CodePra
 
 ## Documentos relevantes:
 
-[Fluxograma das Telas](https://www.figma.com/file/wz2ezUleeOW977ONiJeooX/Fluxograma-CodePraesto?type=whiteboard&node-id=0-1&t=QZADaw7fMegSy3CA-0)
-[Requisitos](https://www.figma.com/file/wz2ezUleeOW977ONiJeooX/Fluxograma-CodePraesto?type=whiteboard&node-id=0-1&t=QZADaw7fMegSy3CA-0)
+[Fluxograma das Telas](https://www.figma.com/file/wz2ezUleeOW977ONiJeooX/Fluxograma-CodePraesto?type=whiteboard&node-id=0-1&t=QZADaw7fMegSy3CA-0) |
+[Requisitos](https://www.figma.com/file/wz2ezUleeOW977ONiJeooX/Fluxograma-CodePraesto?type=whiteboard&node-id=0-1&t=QZADaw7fMegSy3CA-0) |
 [História dos Usuários](https://docs.google.com/document/d/1GyhIVmL17gff2Br0_Mp1a_RFPq_ASsZrTk_HeBg3Y_Q/edit)
