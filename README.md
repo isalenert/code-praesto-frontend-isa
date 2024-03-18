@@ -19,6 +19,7 @@ Levando em consideração o tempo disponível e nível de conhecimento da equipe
 ## Link para acompanhar o desenvolvimento
 
 Repositório no Github: [CodePraesto](https://github.com/gabriel-kasten/code-praesto.git)
+
 Projeto Figma: [Figma](https://www.figma.com/file/Rbk6xPyhFF020FEUxzENHW/CodePraesto?type=design&node-id=2-4&mode=design&t=id2dM6ii1kzw9FU0-0)
 
 ## Documentos relevantes:
