@@ -1,7 +1,10 @@
+// Assets
 import Logo from '../assets/Logo.png';
 
-import '../styles/general.css'
-import '../styles/navbar.css'
+// Stylesheets
+import '../styles/Navbar.css'
+
+import Button from '../components/Button';
 
 const Navbar = () => {
     return (
@@ -16,9 +19,9 @@ const Navbar = () => {
             </div>
 
             <div className='container'>
-                <input className='search-input' placeholder={"Procurar"}/>
-                <button className='button login-button'>Entrar</button>
-                <button className='button register-button'>Registrar</button>
+                <input className='search-input' placeholder={"Procurar"} />
+                <Button buttonType="login" />
+                <Button buttonType="register" />
             </div>
         </header>
     )

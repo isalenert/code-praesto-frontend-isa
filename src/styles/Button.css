@@ -1,0 +1,33 @@
+.button {
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 22px;
+  cursor: pointer;
+  font-size: 1rem;
+  outline: none;
+  text-decoration: none;
+}
+
+.register {
+  background-color: black;
+  color: white;
+  font-weight: 700;  
+}
+
+.register:hover,
+.register:focus {
+  box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.25);
+}
+
+.login {
+  background-color: transparent;
+  color: black;
+  font-weight: 500;
+}
+
+.login:hover,
+.login:focus {
+  background-color: #f3f3f3;
+}
+
+/* montar css para o Accordion */
