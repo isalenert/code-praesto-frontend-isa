@@ -1,6 +1,7 @@
 // Components
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
+import Section from "../components/Section";
 
 // Stylesheets
 import '../styles/General.css'
@@ -9,16 +10,15 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-
       <Hero />
-      {/* <Acaccordion />
-      
-      <Section />
-      <Card-List />
-      
-      <Section />
+      {/* <Acaccordion />*/}
+      <Section section="participate" />
 
-      <Footer /> */}
+      {/* <Card-List /> */}
+
+      <Section section="oraganize" />
+
+      {/* <Footer /> */}
     </div>
   );
 }
