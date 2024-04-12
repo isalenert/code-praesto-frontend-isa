@@ -35,6 +35,7 @@ p {
 .hero-button-wrapper {
   display: flex;
   margin-top: 4rem;
+  gap: 1rem;
 }
 
 .image-wrapper {
