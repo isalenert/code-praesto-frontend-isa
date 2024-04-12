@@ -2,6 +2,7 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Section from "../components/Section";
+import Footer from "../components/Footer";
 
 // Stylesheets
 import '../styles/General.css'
@@ -17,8 +18,7 @@ function App() {
       {/* <Card-List /> */}
 
       <Section section="oraganize" />
-
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
