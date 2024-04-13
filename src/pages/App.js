@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Hero />
-      {/* <Acaccordion />*/}
+      {/* <Acaccordion /> */}
       <Section section="participate" />
 
       {/* <Card-List /> */}
