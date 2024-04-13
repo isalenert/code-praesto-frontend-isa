@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'input-magnifier': "url('./assets/icons/Magnifier.png')"
+      }
+    },
   },
   plugins: [],
 }

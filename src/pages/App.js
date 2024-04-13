@@ -4,12 +4,9 @@ import Hero from "../components/layout/Hero";
 import Section from "../components/layout/Section";
 import Footer from "../components/layout/Footer";
 
-// Stylesheets
-import '../styles/General.css'
-
 function App() {
   return (
-    <div className="App">
+    <div>
       <Navbar />
       <Hero />
       {/* <Acaccordion /> */}
