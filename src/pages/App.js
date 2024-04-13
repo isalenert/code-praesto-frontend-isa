@@ -1,8 +1,8 @@
 // Components
-import Navbar from "../components/Navbar";
-import Hero from "../components/Hero";
-import Section from "../components/Section";
-import Footer from "../components/Footer";
+import Navbar from "../components/layout/Navbar";
+import Hero from "../components/layout/Hero";
+import Section from "../components/layout/Section";
+import Footer from "../components/layout/Footer";
 
 // Stylesheets
 import '../styles/General.css'

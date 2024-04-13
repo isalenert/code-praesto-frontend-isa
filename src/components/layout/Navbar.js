@@ -1,10 +1,10 @@
 // Assets
-import Logo from '../assets/Logo.png';
+import Logo from '../../assets/Logo.png';
 
 // Stylesheets
-import '../styles/Navbar.css'
+import '../../styles/Navbar.css'
 
-import Button from '../components/Button';
+import Button from '../Button';
 
 const Navbar = () => {
     return (

@@ -1,8 +1,8 @@
 // assets
-import Logo from "../assets/Logo.png"
+import Logo from "../../assets/Logo.png"
 
 // stylesheets
-import "../styles/Footer.css"
+import "../../styles/Footer.css"
 
 function Footer() {
   return (
