@@ -1,25 +1,24 @@
 // Assets
 import Logo from '../../assets/Logo.png';
 
-// Stylesheets
-import '../../styles/Navbar.css'
-
+// Components
 import Button from '../Button';
+import Input from '../Input';
 
 const Navbar = () => {
     return (
-        <header className='flex'>
-            <div className='navigation'>
+        <header className='flex items-center h-12 justify-between mt-2'>
+            <div className='flex items-center'>
                 <img src={Logo} alt="Logo" />
-                <ul>
-                    <li><a href="">Eventos</a></li>
-                    <li><a href="">Populares</a></li>
-                    <li><a href="">Organizar Evento</a></li>
+                <ul className='flex flex-row items-center mx-6 space-x-6 text-gray-600'>
+                    <li className='hover:underline'><a href="">Eventos</a></li>
+                    <li className='hover:underline'><a href="">Populares</a></li>
+                    <li className='hover:underline'><a href="">Organizar Evento</a></li>
                 </ul>
             </div>
 
-            <div className='container'>
-                <input className='search-input' placeholder={"Procurar"} />
+            <div className='flex align-center space-x-6'>
+                <Input placeholder={"Pesquisar"} />
                 <Button buttonType="login" />
                 <Button buttonType="register" />
             </div>

@@ -8,7 +8,7 @@ function Button({ buttonType }) {
   }
   else if (buttonType == "login") {
     return (
-      <a className="button login" href="/login">Login</a>
+      <a className="button login" href="/login">Entrar</a>
     )
   }
   else if (buttonType == "accordion") {
