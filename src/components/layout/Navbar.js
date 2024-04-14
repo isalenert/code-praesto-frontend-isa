@@ -2,8 +2,9 @@
 import Logo from '../../assets/Logo.png';
 
 // Components
-import Button from '../Button';
-import Input from '../Input';
+import Input from '../inputs/Input';
+import PrimaryButton from '../buttons/PrimaryButton';
+import SecondaryButton from '../buttons/SecondaryButton';
 
 const Navbar = () => {
     return (
@@ -14,13 +15,14 @@ const Navbar = () => {
                     <li className='hover:underline'><a href="/events">Eventos</a></li>
                     <li className='hover:underline'><a href="/popular">Populares</a></li>
                     <li className='hover:underline'><a href="/host">Organizar Evento</a></li>
+                    <li className='hover:underline'><a href="/test">Test Page</a></li>
                 </ul>
             </div>
 
             <div className='flex align-center space-x-6'>
                 <Input placeholder={"Pesquisar"} />
-                <Button buttonType="login" />
-                <Button buttonType="register" />
+                <SecondaryButton href="/login">Login</SecondaryButton>
+                <PrimaryButton href="/register">Registre-se</PrimaryButton>
             </div>
         </header>
     )

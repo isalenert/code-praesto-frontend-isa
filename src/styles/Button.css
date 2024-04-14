@@ -8,22 +8,22 @@
   text-decoration: none;
 }
 
-.register {
+/* .register {
   background-color: black;
   color: white;
   font-weight: 700;  
-}
+} */
 
 .register:hover,
 .register:focus {
   box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.25);
 }
-
+/* 
 .login {
   background-color: transparent;
   color: black;
   font-weight: 500;
-}
+} */
 
 .login:hover,
 .login:focus {

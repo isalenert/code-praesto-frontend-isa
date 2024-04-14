@@ -6,15 +6,4 @@ function Input({placeholder}) {
 
 export default Input;
 
-// .search-input {
-
-//     /* posição do ícone */
-//     background: url("../assets/icons/Magnifier.png") no-repeat left;
-//     background-position: 0.5rem;
-//     background-size: 1.25rem;
-
-//     /* posição do texto */
-//     text-indent: 1.5rem;
-// }
-
 
