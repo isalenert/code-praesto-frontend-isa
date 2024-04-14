@@ -4,25 +4,21 @@ import Image from "../../components/Image"
 
 // Assets
 import heroImage from "../../assets/Hero-Image.png"
-import sectionImage from "../../assets/Section-Image-2.png"
-
-// Stylesheets
-import "../../styles/Hero.css"
 
 function Hero() {
   return (
-    <div className="hero-section">
-      <div className="hero-content-wrapper">
-        <div className="hero-title-wrapper">
-          <h1>Onde a inovação<br />encontra a execução!</h1>
-          <p>Capacite seus eventos de programação com facilidade e precisão.<br />CodePraesto é a sua solução completa para organizar e avaliar<br />competições de codificação, hackathons e desafios de programação.</p>
+    <div className="flex mt-40 justify-between">
+      <div className="flex flex-col justify-start w-6/12">
+        <div className="flex flex-col gap-4">
+          <h1 className="text-5xl font-bold leading-normal">Onde a inovação<br />encontra a execução!</h1>
+          <p className="leading-relaxed text-gray-600">Capacite seus eventos de programação com facilidade e precisão.<br />CodePraesto é a sua solução completa para organizar e avaliar<br />competições de codificação, hackathons e desafios de programação.</p>
         </div>
-        <div className="hero-button-wrapper">
+        <div className="flex flex-row space-x-6 mt-8">
           <Button buttonType="register" />
           <Button buttonType="login" />
         </div>
       </div>
-      <div className="image-wrapper">
+      <div className="flex w-6/12 h-[28rem] justify-center">
         <Image src={heroImage} alt="hero image" />
       </div>
     </div>
