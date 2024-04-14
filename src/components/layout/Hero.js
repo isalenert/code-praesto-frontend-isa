@@ -1,6 +1,7 @@
 // Components
-import Button from "../../components/Button"
 import Image from "../../components/Image"
+import PrimaryButton from "../../components/buttons/PrimaryButton"
+import SecondaryButton from "../../components/buttons/SecondaryButton"
 
 // Assets
 import heroImage from "../../assets/Hero-Image.png"
@@ -14,8 +15,8 @@ function Hero() {
           <p className="leading-relaxed text-gray-600">Capacite seus eventos de programação com facilidade e precisão.<br />CodePraesto é a sua solução completa para organizar e avaliar<br />competições de codificação, hackathons e desafios de programação.</p>
         </div>
         <div className="flex flex-row space-x-6 mt-8">
-          <Button buttonType="register" />
-          <Button buttonType="login" />
+          <PrimaryButton>Registre-se</PrimaryButton>
+          <SecondaryButton>Login</SecondaryButton>
         </div>
       </div>
       <div className="flex w-6/12 h-[28rem] justify-center">
