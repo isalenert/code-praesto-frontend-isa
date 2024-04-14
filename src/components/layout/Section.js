@@ -2,9 +2,6 @@
 import sectionImage2 from "../../assets/Section-Image-2.png"
 import sectionImage3 from "../../assets/Section-Image-3.png"
 
-// // Stylesheets
-// import "../../styles/Section.css"
-
 function Section({section}) {
   if (section == "participate") {
     return (
