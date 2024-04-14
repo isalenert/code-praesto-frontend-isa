@@ -14,7 +14,7 @@ const Navbar = () => {
                     <li className='hover:underline'><a href="/events">Eventos</a></li>
                     <li className='hover:underline'><a href="/popular">Populares</a></li>
                     <li className='hover:underline'><a href="/host">Organizar Evento</a></li>
-                    <li className='hover:underline'><a href="/TestPage">Test Page</a></li>
+                    <li className='hover:underline'><a href="/test">Test Page</a></li>
                 </ul>
             </div>
 

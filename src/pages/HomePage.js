@@ -1,13 +1,11 @@
-// Components
-import Footer from "../components/layout/Footer";
-import Hero from "../components/layout/Hero";
+import React from 'react';
+
 import Navbar from "../components/layout/Navbar";
+import Hero from "../components/layout/Hero";
 import Section from "../components/layout/Section";
+import Footer from "../components/layout/Footer";
 
-
-
-
-function App() {
+function HomePage() {
   return (
     <div>
       <Navbar />
@@ -20,7 +18,7 @@ function App() {
       <Section section="oraganize" />
       <Footer />
     </div>
-  );
+  )
 }
 
-export default App;
+export default HomePage;
