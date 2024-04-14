@@ -1,5 +1,5 @@
 // Components
-import Image from "../../components/Image"
+import Image from "../../components/images/Image"
 import PrimaryButton from "../../components/buttons/PrimaryButton"
 import SecondaryButton from "../../components/buttons/SecondaryButton"
 

@@ -2,7 +2,7 @@
 import Logo from '../../assets/Logo.png';
 
 // Components
-import Input from '../Input';
+import Input from '../inputs/Input';
 import PrimaryButton from '../buttons/PrimaryButton';
 import SecondaryButton from '../buttons/SecondaryButton';
 
