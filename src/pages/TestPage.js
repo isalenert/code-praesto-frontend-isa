@@ -6,11 +6,15 @@ import IconButton from "../components/buttons/IconButton";
 import PrimaryButton from "../components/buttons/PrimaryButton";
 import SecondaryButton from "../components/buttons/SecondaryButton";
 import CardSection from "../components/layout/CardSection";
+import CardMin from "../components/card/CardMini";
 
 // Assets
 import ArrowIcon from "../assets/icons/ArrowIcon.png";
 import FlameIcon from "../assets/icons/Fire.png"
-import CardMin from "../components/card/CardMini";
+
+import MinCardLogo1 from "../assets/bussines-logo.png";
+import MinCardLogo2 from "../assets/bussines-logo-2.png";
+import MinCardLogo3 from "../assets/bussines-logo-3.png";
 
 function TestPage() {
   return (
