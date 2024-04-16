@@ -27,9 +27,6 @@ function TestPage() {
         <CardMin />
         <CardMin />
         <CardMin />
-        <CardMin />
-        <CardMin />
-        <CardMin />
       </CardSection>
     </>
   );

@@ -13,7 +13,7 @@ function CardSection({ title, href, iconPath, children }) {
           Ver mais
         </a>
       </div>
-      <div className='flex flex-wrap justify-between'>
+      <div className='grid grid-cols-3 justify-items-center gap-6'>
         {children}
       </div>
     </>

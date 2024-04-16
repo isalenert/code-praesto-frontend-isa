@@ -9,6 +9,7 @@ import CardSection from '../components/layout/CardSection';
 
 // assets
 import FlameIcon from "../assets/icons/Fire.png"
+import CardMin from '../components/card/CardMini';
 
 function HomePage() {
   return (
@@ -21,7 +22,9 @@ function HomePage() {
       <Section section="participate" />
       
       <CardSection className="mt-40" title="Populares" href={"/test"} iconPath={FlameIcon}>
-        <p>Card</p>
+        <CardMin />
+        <CardMin />
+        <CardMin />
       </CardSection>
 
       <Section section="oraganize" />
