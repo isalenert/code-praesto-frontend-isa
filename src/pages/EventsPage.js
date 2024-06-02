@@ -5,6 +5,7 @@ import Navbar from "../components/layout/Navbar";
 import Footer from "../components/layout/Footer";
 import EventsList from '../components/layout/EventsList';
 import EventsFooter from '../components/layout/EventsFooter';
+import Input from '../components/inputs/Input'; 
 
 
 function EventsPage() {
@@ -14,7 +15,7 @@ function EventsPage() {
         <EventsList /> 
         {/* <Acaccordion /> */}
         <EventsFooter />
-        
+        <Input />
         <Footer />
       </div>
     )
